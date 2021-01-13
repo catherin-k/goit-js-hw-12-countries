@@ -1,0 +1,10 @@
+.container {
+  text-align: center;
+}
+#query {
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: medium;
+}

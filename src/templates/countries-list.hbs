@@ -1,4 +1,7 @@
-{{#each this}}
-<li>{{name}}</li>
-
-{{/each}}
+<ul class="country-list">
+    {{#each this}}
+    <li class="country-item">{{name}}</li>
+    {{!-- <a class="link" href="data">{{name}}</a> --}}
+    {{/each}}
+</ul>
+<a href="data">{{name}}</a>
